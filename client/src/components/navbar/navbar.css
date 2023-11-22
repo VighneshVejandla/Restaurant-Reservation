@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Julee&family=Kaushan+Script&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Julee&family=Kaushan+Script&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+.navbar{
+  height: 50px;
+  background-color: #174675;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Ephesis', cursive;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+.navButton:hover{
+  background-color: (rgb(0, 0, 0), 0, 0);
+}
+.navItems {
+  display: flex;
+  gap: 20px;
+}
+
+.LogoutIcon {
+  cursor: pointer;
+}
+
+.navbarUser {
+  display: flex;
+  align-items: center;
+}
+
+.userlogout{
+  display: flex;
+}
+
+.username {
+  margin-right: 20px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.2rem;
+}
+
+.LogoutIcon{
+  font-size: 15px;
+}

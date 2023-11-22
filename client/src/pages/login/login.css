@@ -1,0 +1,63 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('D:/Documents/Restaurant reservation/client/src/images/vijayawada.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lContainer {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.lInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.lButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #0071c28c;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lButton:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.lButton:hover {
+  background-color: #0071c2;
+  color: white;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+span a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
